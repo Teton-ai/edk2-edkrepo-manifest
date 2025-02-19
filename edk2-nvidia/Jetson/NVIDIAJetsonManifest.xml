@@ -114,6 +114,16 @@
     </Combination>
   </CombinationList>
 
+    <!-- rel-36 -->
+    <Combination name="r36.4.3" description="The r36.4.3 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.3" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.3"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.3" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r36.4.3-nvme"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.3"/>
+    </Combination>
+  </CombinationList>
+
   <DscList>
   </DscList>
 </Manifest>
